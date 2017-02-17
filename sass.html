@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>智能社——http://www.zhinengshe.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--移动端必须加的meta-->
+    <link rel="stylesheet" href="css/sass.css">
+    <script src="js/jquery-1.7.2.js"></script>
+    <script>
+        document.documentElement.style.fontSize=20*document.documentElement.clientWidth/320+'px';
+        window.onresize=function(){
+            document.documentElement.style.fontSize=20*document.documentElement.clientWidth/320+'px';
+        };
+        $(function(){
+            var oA=$('.option a');
+            var aA=$('.option2 a');
+            var oComet=$('.comet');
+            var aComet=$('.cometTo');
+            $(aA).on('click',function(){
+                $(aA).removeClass('plug').eq($(this).index()).addClass('plug');
+                $(aComet).hide().eq($(this).index()).show();
+            });  
+            $(oA).on('click',function(){
+                $(oA).removeClass('plug').eq($(this).index()).addClass('plug');
+                $(oComet).hide().eq($(this).index()).show();
+            });                                      
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <a href="javascrpit:;" class="menu">菜单</a>
+        <h1>Guokr.com</h1>
+        <a href="javascript:;" class="pc">PC</a>
+    </header>
+    <ul class="user-box">
+        <li class="user-login">
+            <a href="javascript:;">用户登入</a>    
+        </li>
+        <li class="user-register">
+            <a href="javascript:;">用户注册</a>
+        </li>
+    </ul>
+    <div class="logo">
+        <a href="javascript:;">
+            <div class="mask"> </div>
+            <div class="mask-top">
+                    <span>起床看见海、是多么幸福的感觉。</span>
+            </div>
+        </a>
+    </div>
+    <ul class="content-one">
+        <li>
+            <a href="javascript:;">解读科学观点时，你应该知道的20个重病患者哦</a>
+        </li>
+        <li>
+            <a href="javascript:;">运动出点汗更好来谈判</a>
+        </li>
+        <li>
+            <a href="javascript:;">“关掉”旧习惯，本性不在难移就怪了</a>
+        </li>
+        <li>
+            <a href="javascript:;">男女搭配，破案不累</a>
+        </li>
+        <li>
+            <a href="javascript:;">腰窝，性感无误</a>
+        </li>
+        <li>
+            <a href="javascript:;">有7000多种语言，就有七千多个“平行旋转偏移”</a>
+        </li>
+        <li>
+            <a href="javascript:;">久坐杀精——今天你坐了多久？</a>
+        </li>
+    </ul>
+    <ul class="content-two">
+        <div class="hot">
+            <span>热门问题</span>
+            <a href="javascript:;"></a>
+        </div>
+        <div class="option">
+            <a href="javascript:;" class="plug">科技</a>
+            <a href="javascript:;">生活</a>
+            <a href="javascript:;">人文</a>
+            <a href="javascript:;">自然</a>
+        </div>
+        <div class="comet" style="display: block;">
+            <h5>如果把深测器装到卫星上会怎么样?</h5>
+            <div>
+                <a href="javascript:;">彗星</a>
+                <span>装上去的事情人类已经干过了。。深度撞击号（英语: </br>Deep lmpact）是美国国家</span>
+            </div>
+        </div>
+                <div class="comet">
+            <h5>如果把深测器装到卫星上会怎么样?</h5>
+            <div>
+                <a href="javascript:;" class="dinosaur">彗星</a>
+                <span>装上去的事情人类已经干过了。。深度撞击号（英语: </br>Deep lmpact）是美国国家</span>
+            </div>
+        </div>
+                <div class="comet">
+            <h5>如果把深测器装到卫星上会怎么样?</h5>
+            <div>
+                <a href="javascript:;">彗星</a>
+                <span>装上去的事情人类已经干过了。。深度撞击号（英语: </br>Deep lmpact）是美国国家</span>
+            </div>
+        </div>
+                <div class="comet">
+            <h5>如果把深测器装到卫星上会怎么样?</h5>
+            <div>
+                <a href="javascript:;" class="dinosaur">彗星</a>
+                <span>装上去的事情人类已经干过了。。深度撞击号（英语: </br>Deep lmpact）是美国国家</span>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="javascript:;">这个“肥皂放入牛奶”的效果是怎么产生的？？？</a>
+            </li>
+            <li>
+                <a href="javascript:;">制造出大于全画幅的感光元件有意嚒？？？？？？</a>
+            </li>
+            <li>
+                <a href="javascript:;">磁场是运动的电厂么？</a>
+            </li>
+            <li>
+                <a href="javascript:;">什么函数能描述你的人生？</a>
+            </li>
+        </ul>
+    </ul>
+    <ul class="content-two content-three">
+        <div class="hot">
+            <span>小组热帖</span>
+            <a href="javascript:;"></a>
+        </div>
+        <div class="option2">
+            <a href="javascript:;" class="plug">科技</a>
+            <a href="javascript:;">生活</a>
+            <a href="javascript:;">人文</a>
+            <a href="javascript:;">娱乐</a>
+        </div>
+        <div class="comet cometTo" style="display: block;">
+            <h5>史密森尼国家自然史博物馆：古脊椎动了点点点</h5>
+            <div>
+                <a href="javascript:;" class="dinosaur">恐龙</a>
+                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。</br>因为去过多次，看</span>
+            </div>
+        </div>
+        <div class="comet cometTo">
+            <h5>史密森尼国家自然史博物馆：古脊椎动了点点点</h5>
+            <div>
+                <a href="javascript:;">恐龙</a>
+                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。</br>因为去过多次，看</span>
+            </div>
+        </div>
+        <div class="comet cometTo">
+            <h5>史密森尼国家自然史博物馆：古脊椎动了点点点</h5>
+            <div>
+                <a href="javascript:;" class="dinosaur">恐龙</a>
+                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。</br>因为去过多次，看</span>
+            </div>
+        </div>
+        <div class="comet cometTo">
+            <h5>史密森尼国家自然史博物馆：古脊椎动了点点点</h5>
+            <div>
+                <a href="javascript:;">恐龙</a>
+                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。</br>因为去过多次，看</span>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="javascript:;">#TIL#有的母螳螂会用美色诱杀其公螳螂呗、、、、</a>
+            </li>
+            <li>
+                <a href="javascript:;">艾森彗星T-18小时：绝地反击！</a>
+            </li>
+            <li>
+                <a href="javascript:;">[ISON]我儿，老大哥在看着你</a>
+            </li>
+            <li>
+                <a href="javascript:;">【天文每日一图】NGC 1999：</a>
+            </li>
+        </ul>
+    </ul>
+    <div class="return">
+        <a href="sass.html">回到顶部</a>
+    </div>
+    <footer>
+        <div class="pc-end">
+            <a href="javascript:;">PC版</a>
+          
+        </div>
+        <div class="move">
+            <a href="javascript:;">移动应用</a>
+            <span></span>
+        </div>
+    </footer>
+</body>
+</html>
