@@ -8,7 +8,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!--移动端必须加的meta-->
     <link rel="stylesheet" href="css/sass.css">
+    <link rel="stylesheet" href="css/swiper-3.4.1.min.css">
     <script src="js/jquery-1.7.2.js"></script>
+    <script src="js/swiper-3.4.1.min.js"></script>
     <script>
         document.documentElement.style.fontSize=20*document.documentElement.clientWidth/320+'px';
         window.onresize=function(){
@@ -44,14 +46,55 @@
             <a href="javascript:;">用户注册</a>
         </li>
     </ul>
-    <div class="logo">
+    <!-- <div class="logo">
         <a href="javascript:;">
             <div class="mask"> </div>
             <div class="mask-top">
                     <span>起床看见海、是多么幸福的感觉。</span>
             </div>
         </a>
+    </div> -->
+    <div class="swiper-container logo">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide " href="javascript:;">
+                <a href="javascript:;">
+                    <div class="mask"></div>
+                    <div class="mask-top">
+                        <span>起床看见海、是多么幸福的感觉。</span>
+                    </div>
+                </a>
+            </div>
+            <div class="swiper-slide " href="javascript:;">
+                <a href="javascript:;">
+                    <div class="mask"></div>
+                    <div class="mask-top">
+                        <span>第二张海、</span>
+                    </div>
+                </a>
+            </div>
+            <div class="swiper-slide " href="javascript:;">
+                <a href="javascript:;">
+                    <div class="mask"></div>
+                    <div class="mask-top">
+                        <span>第三张海。</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <a href="javascript:;" class="swiper-button-prev"></a>
+        <a href="javascript:;" class="swiper-button-next"></a>
     </div>
+    <script>             
+        new Swiper('.swiper-container',{
+            autoplay:1000,
+            speed:1000,
+            pagination:'.swiper-pagination',
+            paginationType:'progress',
+            prevButton:'.swiper-button-prev',
+            nextButton:'.swiper-button-next',
+        });
+    </script>
     <ul class="content-one">
         <li>
             <a href="javascript:;">解读科学观点时，你应该知道的20个重病患者哦</a>
@@ -140,32 +183,32 @@
             <a href="javascript:;">人文</a>
             <a href="javascript:;">娱乐</a>
         </div>
-        <div class="comet cometTo" style="display: block;">
+        <div class="cometTo" style="display: block;">
             <h5>史密森尼国家自然史博物馆：古脊椎动了点点点</h5>
             <div>
                 <a href="javascript:;" class="dinosaur">恐龙</a>
-                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。</br>因为去过多次，看</span>
+                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。因为去过多次，看</span>
             </div>
         </div>
         <div class="comet cometTo">
             <h5>史密森尼国家自然史博物馆：古脊椎动了点点点</h5>
             <div>
                 <a href="javascript:;">恐龙</a>
-                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。</br>因为去过多次，看</span>
+                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。因为去过多次，看</span>
             </div>
         </div>
         <div class="comet cometTo">
             <h5>史密森尼国家自然史博物馆：古脊椎动了点点点</h5>
             <div>
                 <a href="javascript:;" class="dinosaur">恐龙</a>
-                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。</br>因为去过多次，看</span>
+                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。因为去过多次，看</span>
             </div>
         </div>
         <div class="comet cometTo">
             <h5>史密森尼国家自然史博物馆：古脊椎动了点点点</h5>
             <div>
                 <a href="javascript:;">恐龙</a>
-                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。</br>因为去过多次，看</span>
+                <span>好久没逛果壳了，偶然发现了Baboon老师关于NMNH的帖子。因为去过多次，看</span>
             </div>
         </div>
         <ul>

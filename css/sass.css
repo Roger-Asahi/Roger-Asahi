@@ -85,11 +85,13 @@ header .pc {
 .logo {
   width: 16.0rem;
   height: 7.8rem;
+}
+.logo .swiper-wrapper .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.logo a {
+.logo .swiper-wrapper .swiper-slide a {
   flex: 1;
   width: 16.0rem;
   height: 7.8rem;
@@ -97,7 +99,7 @@ header .pc {
   background-size: 16.0rem 7.8rem;
   position: relative;
 }
-.logo a .mask {
+.logo .swiper-wrapper .swiper-slide a .mask {
   width: 16.0rem;
   height: 1.85rem;
   background: #000;
@@ -106,7 +108,7 @@ header .pc {
   bottom: 0;
   opacity: 0.5;
 }
-.logo a .mask-top {
+.logo .swiper-wrapper .swiper-slide a .mask-top {
   width: 16.0rem;
   height: 1.85rem;
   position: absolute;
@@ -114,10 +116,13 @@ header .pc {
   bottom: 0;
   text-align: center;
 }
-.logo a .mask-top span {
+.logo .swiper-wrapper .swiper-slide a .mask-top span {
   font-size: 0.7rem;
   line-height: 1.85rem;
   color: #fff;
+}
+.logo .swiper-pagination .swiper-pagination-bullet {
+  background: #000;
 }
 .content-one {
   width: 16.0rem;
@@ -206,6 +211,48 @@ header .pc {
 .content-two .option .plug {
   border-bottom: 0.1rem solid #d43553;
 }
+.content-two .cometTo {
+  display: none;
+  width: 16.0rem;
+  height: 6.5rem;
+}
+.content-two .cometTo h5 {
+  margin-left: 0.7rem;
+  font-size: 0.75rem;
+  line-height: 2.0rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.content-two .cometTo div {
+  width: 14.6rem;
+  height: 3.7rem;
+  margin-left: 0.7rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.content-two .cometTo div a {
+  width: 5.2rem;
+  height: 3.7rem;
+  background: url(../img/huixing-bg.png) no-repeat;
+  background-size: 5.2rem 3.7rem;
+  text-indent: -99999em;
+}
+.content-two .cometTo div .dinosaur {
+  width: 5.2rem;
+  height: 3.7rem;
+  background: url(../img/konglong-bg.png) no-repeat;
+  background-size: 5.2rem 3.7rem;
+  text-indent: -99999em;
+}
+.content-two .cometTo div span {
+  width: 9.4rem;
+  height: 3.7rem;
+  font-size: 0.6rem;
+  color: #8a8a8a;
+  margin-left: 0.7rem;
+  line-height: 1.25rem;
+}
 .content-two .comet {
   display: none;
   width: 16.0rem;
@@ -231,7 +278,7 @@ header .pc {
   height: 3.7rem;
   background: url(../img/huixing-bg.png) no-repeat;
   background-size: 5.2rem 3.7rem;
-  text-indent: -99999em;
+  text-indent: -99999rem;
 }
 .content-two .comet div .dinosaur {
   width: 5.2rem;
